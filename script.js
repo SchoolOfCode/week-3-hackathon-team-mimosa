@@ -1,9 +1,14 @@
 console.log("hello")
 
+
+
 //HTML UI Section
 
 //Ask user for their username and save response as variable
+// const username = prompt("Hi there! What is your name?");
+// alert(`Welcome ${username}! Ready to play Trivial Pursuit?`);
 //Create interactable "Ask me a question" button
+
 
 
 //API Request Section
