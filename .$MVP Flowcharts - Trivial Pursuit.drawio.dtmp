@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2813" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="987" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -108,7 +108,7 @@
         <mxCell id="dnkfJ818eXb9h3Lc2KQS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnkfJ818eXb9h3Lc2KQS-19" target="dnkfJ818eXb9h3Lc2KQS-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dnkfJ818eXb9h3Lc2KQS-19" value="Save player name as variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dnkfJ818eXb9h3Lc2KQS-19" value="Save player name as variable - validate username has no numbers or special char" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dnkfJ818eXb9h3Lc2KQS-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dnkfJ818eXb9h3Lc2KQS-21" target="dnkfJ818eXb9h3Lc2KQS-22">
@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Styled Full MVP" id="2UTLvln3E7b65Dp3l34o">
-    <mxGraphModel dx="2037" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="851" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="AKWRBpyo3GDOOSf5A_Qk-0" />
         <mxCell id="AKWRBpyo3GDOOSf5A_Qk-1" parent="AKWRBpyo3GDOOSf5A_Qk-0" />
@@ -275,8 +275,8 @@
         <mxCell id="AKWRBpyo3GDOOSf5A_Qk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKWRBpyo3GDOOSf5A_Qk-1" source="AKWRBpyo3GDOOSf5A_Qk-32" target="AKWRBpyo3GDOOSf5A_Qk-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AKWRBpyo3GDOOSf5A_Qk-32" value="Greet player and ask their name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AKWRBpyo3GDOOSf5A_Qk-1">
-          <mxGeometry x="70" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="AKWRBpyo3GDOOSf5A_Qk-32" value="Greet player and ask their name - validate username has no numbers or special char" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AKWRBpyo3GDOOSf5A_Qk-1">
+          <mxGeometry x="60" y="70" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKWRBpyo3GDOOSf5A_Qk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKWRBpyo3GDOOSf5A_Qk-1" source="AKWRBpyo3GDOOSf5A_Qk-34" target="AKWRBpyo3GDOOSf5A_Qk-5">
           <mxGeometry relative="1" as="geometry" />
@@ -336,7 +336,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bH-I4_avt3-_j16CmNUI" name="MVP 1">
-    <mxGraphModel dx="2462" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1028" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
