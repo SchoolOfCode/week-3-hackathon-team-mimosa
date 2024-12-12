@@ -336,7 +336,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bH-I4_avt3-_j16CmNUI" name="MVP 1">
-    <mxGraphModel dx="3475" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2462" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -435,6 +435,12 @@
         </mxCell>
         <mxCell id="fnMm9SYh12ZAA1Ng1bF4-11" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="406" y="913" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fnMm9SYh12ZAA1Ng1bF4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="10" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fnMm9SYh12ZAA1Ng1bF4-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="120" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
