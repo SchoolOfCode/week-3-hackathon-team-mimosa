@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+#tp_banner {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+#tp_segments {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
