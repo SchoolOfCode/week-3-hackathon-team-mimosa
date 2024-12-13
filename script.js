@@ -1,31 +1,43 @@
 console.log("hello")
 
-const userName = prompt("What is your name?");
-const answeredName = document.getElementById("name");
-answeredName.textContent = userName;
+// const userName = prompt("What is your name?");
+// const answeredName = document.getElementById("name");
+// answeredName.textContent = userName;
 
-const askMeButton = document.getElementById("askMeButton");
+const askMeButton = document.getElementById("question_button");
 askMeButton.addEventListener("click", startGame)
 
 
 
 async function startGame(){
   const data = await fetchData()
-  const question = document.getElementById("question")
+  console.log(data)
+  const question = document.getElementById("question_text")
   question.textContent = data.results[0].question;
 
   let answers = []; 
   answers = data.results[0].incorrect_answers;
   answers.push(data.results[0].correct_answer);
 
-  const answerButton1 = document.getElementById("answerButton1");
-  answerButton1.textContent = answers[0];
-  answerButton1.addEventListener("click", checkAnswer)
+  const optionA = document.getElementById("option_a");
+  const optionB = document.getElementById("option_b");
+  const optionC = document.getElementById("option_c");
+  const optionD = document.getElementById("option_d");
 
-  const answerButton2 = document.getElementById("answerButton2");
-  answerButton2.textContent = answers[1];
+  optionA.textContent = answers[0];
+  optionB.textContent = answers[1];
+  optionC.textContent = answers[2];
+  optionD.textContent = answers[3];
 
-  answerButton2.addEventListener("click", checkAnswer)
+
+  // const answerButton1 = document.getElementById("answerButton1");
+  // answerButton1.textContent = answers[0];
+  // answerButton1.addEventListener("click", checkAnswer)
+
+  // const answerButton2 = document.getElementById("answerButton2");
+  // answerButton2.textContent = answers[1];
+
+  // answerButton2.addEventListener("click", checkAnswer)
 }
 
 //create var correct answer?
