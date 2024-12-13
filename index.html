@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trivial Pursuit!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Trivia </h1>
-    <h3 id="name">name</h3>
-    <button id="askMeButton">Ask me a question</button>
-
-    <p id="question">question</p>
-    <button id="answerButton1">answer1</button>
-    <button id="answerButton2">answer2</button>
-    <button>answer3</button>
-    <button>answer4</button>
-
+    <header class="image_banners">
+        <image id="tp_banner" src="./assets/trivial_pursuit_banner.png"></image>
+        <image id="tp_segments" src="./assets/tp_spinning_wheel.gif"></image>
+        <button id="question_button">Ask me a question!</button>
+    </header>
+    <div class="question_section">
+        <p id="section_section">Question:</p>
+        <p class="question_text">[Sample Question]</p>
+        <p id="section_section">Options:</p>
+        <ol class="answer_text">
+            <li id="option_a"></li>
+            <li id="option_b"></li>
+            <li id="option_c"></li>
+            <li id="option_d"></li>
+        </ol>
+        <p id="question_header">Input:</p>
+        <form class ="answer_input">
+            <input type="text" id = "answer_input">
+            <button type="submit">Enter</button>  
+        </form>
+        <p id="section_section">Answer:</p>    
+        <p class="question_text">[Sample Answer]</p>    
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
