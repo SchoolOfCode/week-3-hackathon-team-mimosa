@@ -85,3 +85,18 @@ body {
 .answer_input {
     margin-bottom: 3%;
 }
+
+
+#answer_output {
+    background-color: white;
+    width: 95.5%;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    border-radius: 5px;
+    min-height: 50px;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    font-weight: 100;
+    line-height: 1.2;
+}
