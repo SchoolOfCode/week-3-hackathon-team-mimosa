@@ -1,13 +1,11 @@
 console.log("hello")
 
-// const userName = prompt("What is your name?");
+const userName = prompt("What is your name?");
 // const answeredName = document.getElementById("name");
 // answeredName.textContent = userName;
 
 const askMeButton = document.getElementById("question_button");
 askMeButton.addEventListener("click", startGame)
-
-
 
 async function startGame(){
   const data = await fetchData()
@@ -30,6 +28,16 @@ async function startGame(){
   optionD.textContent = answers[3];
 
 
+//Take users input into text field
+//Click and then type
+//Use "submit"
+  const form = document.querySelector(".answer_input");
+  form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const inputText = document.querySelector('#answer_input').value;
+      checkAnswer(inputText,answers);
+  });
+
   // const answerButton1 = document.getElementById("answerButton1");
   // answerButton1.textContent = answers[0];
   // answerButton1.addEventListener("click", checkAnswer)
@@ -41,8 +49,20 @@ async function startGame(){
 }
 
 //create var correct answer?
- function checkAnswer(){
-    
+ function checkAnswer(inputText,answers){
+//Register input as variable
+    const answer_box = document.getElementById("answer_output");
+    if(inputText == 4) {
+        answer_box.textContent = `Congratulations ${userName}, you got it right!`
+    } else {
+        answer_box.textContent = `Unlucky ${userName}, the correct answer is ${answers[3]}!`
+    }
+//Does the variable = 3 (pushed correct answer) + 1
+// Grab the [Sample Answer] element 
+//If yes, good message
+// if no, bad message
+
+
 //if statement to check the correct answer- 
 
 //create 
