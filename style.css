@@ -68,7 +68,7 @@ body {
     width: 100%;
 }
 
-.question_text {
+#question_text {
     background-color: white;
     width: 95.5%;
     flex-wrap: wrap;
