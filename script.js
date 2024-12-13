@@ -8,6 +8,11 @@ const askMeButton = document.getElementById("question_button");
 askMeButton.addEventListener("click", startGame)
 
 async function startGame(){
+    const answer_box = document.getElementById("answer_output");
+    const inputText = document.querySelector('#answer_input');
+    answer_box.textContent = ""
+    inputText.value = ""
+
   const data = await fetchData()
   console.log(data)
   const question = document.getElementById("question_text")
