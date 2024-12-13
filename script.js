@@ -42,15 +42,6 @@ async function startGame(){
       const inputText = document.querySelector('#answer_input').value;
       checkAnswer(inputText,answers);
   });
-
-  // const answerButton1 = document.getElementById("answerButton1");
-  // answerButton1.textContent = answers[0];
-  // answerButton1.addEventListener("click", checkAnswer)
-
-  // const answerButton2 = document.getElementById("answerButton2");
-  // answerButton2.textContent = answers[1];
-
-  // answerButton2.addEventListener("click", checkAnswer)
 }
 
 //create var correct answer?
